@@ -89,17 +89,17 @@
          </div>`
       );
     });
-    quizcontainer = document.querySelector('.quizcontainer')
 
     // finally combine our output list into one string of HTML and put it on the page
     quizContainer.innerHTML = output.join("");
   }
 
-  function showResults(){
+  function showResults() {
     // gather answer containers from our quiz
     const answerContainers = quizContainer.querySelectorAll(".answers");
 
-    
+    // keep track of user's answers
+    let numCorrect = 0;
 
     // for each question...
     myQuestions.forEach((currentQuestion, questionNumber) => {
@@ -122,15 +122,8 @@
       }
     });
 
-    // document.querySelector("#submit").addEventListener("click", function(){
-    //   console.log('submit clicked')
-    //   for(let i=0 ; i<= myQuestions.length;i++){
-      
-    // }
-    // })
     // show number of correct answers out of total
     resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
-
   }
 
   function showSlide(n) {
@@ -177,13 +170,6 @@
 
   // on submit, show results
   submitButton.addEventListener("click", showResults);
-
-
-
-
-
   previousButton.addEventListener("click", showPreviousSlide);
   nextButton.addEventListener("click", showNextSlide);
 })();
-
-
