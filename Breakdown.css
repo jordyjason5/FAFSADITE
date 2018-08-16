@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(214, 145, 18);
+    
+   
+}
+header{
+    font-size:50px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+/* Buttons */
+ul{
+    background-color: rgb(82, 137, 255);
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.titles{
+    padding-top: 40px;
+    /* text-align: center; */
+    font-size: 60px;
+    font-family: 'Lusitana', serif;
+}
+.Text{
+    font-size: 30px;
+}
+
+
+#Copyright{
+    background:rgb(82, 137, 255);
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Damion', cursive;
+}
+
+h1{
+    text-align:center;
+    margin-top: 50px ;
+    font-size:85px;
+    padding-bottom: 20px;
+   
+}
+
+.titles{
+    font-size: 30px; 
+    text-decoration: underline;
+
+}
+li{
+    width: 100%;
+    float: left;
+   /* text-align: center; */
+}
+
+
+p{
+    font-size:20px;
+    	
+}
+
+ol{
+    font-size: 20px;
+    width: 100%;
+    float: left;
+    /* text-align: center; */
+    
+}
+
+
+
+
+#img1 {
+    margin-left: 400px;
+     height:150px;
+     width:500px;
+   }
