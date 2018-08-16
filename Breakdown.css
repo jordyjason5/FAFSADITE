@@ -1,6 +1,8 @@
 body{
-    background-color: rgb(214, 145, 18);
-   
+position: relative;
+background-color: rgb(214, 145, 18);
+text-align: center;
+height: 200vh
 }
 header{
     font-size:50px;
@@ -14,12 +16,12 @@ ul{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
 .titles{
-    padding-top: 40px;
+   padding-top:  5%;
     text-align: center;
     font-size: 60px;
     font-family: 'Lusitana', serif;
@@ -30,20 +32,23 @@ ul{
 }
 
 
-#Copyright{
+#Copyright {
+    position: absolute;
+    bottom: 0;
     background:rgb(82, 137, 255);
     width: 100%;
     text-align: center;
     font-size: 25px;
     font-family: 'Damion', cursive;
-
+    height: 5vh;
 }
 
 h1{
-    margin:auto;
+    text-align: center;
     margin-top: 50px ;
     font-size:85px;
     padding-bottom: 20px;
+    font-family: 'Kaushan Script', cursive;
    
 }
 
@@ -57,6 +62,8 @@ li{
     width: 100%;
     float: left;
     margin:auto;
+    font-size: 30px;
+
 }
 
 
@@ -73,12 +80,14 @@ ol{
     margin:auto;
     
 }
-
-
-
-
 #img1 {
-    margin-left: 400px;
+    margin-left: 0px;
      height:150px;
      width:500px;
    }
+.lists{
+    width: 100%;
+    float: left;
+    margin:auto;
+    font-size: 30px;
+}
