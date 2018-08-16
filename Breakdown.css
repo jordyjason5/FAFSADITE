@@ -1,6 +1,5 @@
 body{
     background-color: rgb(214, 145, 18);
-    
    
 }
 header{
@@ -21,12 +20,13 @@ ul{
 
 .titles{
     padding-top: 40px;
-    /* text-align: center; */
+    text-align: center;
     font-size: 60px;
     font-family: 'Lusitana', serif;
 }
 .Text{
     font-size: 30px;
+    margin: auto;
 }
 
 
@@ -36,10 +36,11 @@ ul{
     text-align: center;
     font-size: 25px;
     font-family: 'Damion', cursive;
+
 }
 
 h1{
-    text-align:center;
+    margin:auto;
     margin-top: 50px ;
     font-size:85px;
     padding-bottom: 20px;
@@ -49,18 +50,19 @@ h1{
 .titles{
     font-size: 30px; 
     text-decoration: underline;
+    margin:auto;
 
 }
 li{
     width: 100%;
     float: left;
-   /* text-align: center; */
+    margin:auto;
 }
 
 
 p{
     font-size:20px;
-    	
+    	margin:auto;
 }
 
 ol{
@@ -68,6 +70,7 @@ ol{
     width: 100%;
     float: left;
     /* text-align: center; */
+    margin:auto;
     
 }
 
